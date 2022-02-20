@@ -14,4 +14,10 @@ public class AppController {
 		model.addAttribute("mess","Welcome to SpringMVC Demo");
 		return "welcome";
 	}
+	@RequestMapping("/page")
+	public String print(Model model)
+	{
+		model.addAttribute("mess","Welcome to SpringMVC Demo");
+		return "welcome";
+	}
 }
